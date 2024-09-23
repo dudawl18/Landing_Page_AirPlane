@@ -5,29 +5,29 @@ body {
 
 .logo-navbar {
     display: flex;
-    align-items: center; 
+    align-items: center;
     background-color: #333;
     padding: 10px;
 }
 
 .logo {
     display: flex;
-    align-items: center; 
+    align-items: center;
     color: white;
 }
 
 .logo img {
-    height: 40px; 
-    margin-right: 10px; 
+    height: 40px;
+    margin-right: 10px;
 }
 
 .menu {
     display: flex;
-    margin-left: auto; 
+    margin-left: auto;
 }
 
 .item {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 .item a {
@@ -37,5 +37,23 @@ body {
 }
 
 .item a:hover {
-    background-color: #575757; 
+    background-color: #575757;
+}
+
+button {
+    background-color: #ffff;
+    border: none;
+    color: black;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #e3e3e3
 }
