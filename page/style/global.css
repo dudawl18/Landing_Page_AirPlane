@@ -1,41 +1,60 @@
+/* global.css */
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Haettenschweiler";
+    background-image: url("/page/image/Airplane-Landings.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Adicionado para cobrir todo o espaço */
+    background-position: center; /* Centraliza a imagem */
 }
 
-.logo-navbar {
+.container-tudo {
     display: flex;
-    align-items: center; 
-    background-color: #333;
-    padding: 10px;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.114);
+    padding: 15px 20px;
 }
 
 .logo {
     display: flex;
-    align-items: center; 
-    color: white;
+    align-items: center;
+    font-size: 1.5em;
+    margin-right: auto;
 }
 
 .logo img {
-    height: 40px; 
-    margin-right: 10px; 
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
 
-.menu {
+.topicos-container {
     display: flex;
-    margin-left: auto; 
 }
 
 .item {
-    margin-left: 20px; 
+    margin: 0 15px;
 }
 
 .item a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    font-size: 1em;
+    transition: color 0.3s;
 }
 
 .item a:hover {
-    background-color: #575757; 
+    color: #ffa500; 
+}
+
+
+.container-sessao {
+    padding: 20px;
 }
