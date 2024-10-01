@@ -6,18 +6,18 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
+
 }
 
-p {
-    font-size: 1.2em;
-    opacity: 0.99;
-}
 
 .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px 40px;
+
+    font-size: 1.3em;
     
     /* Cor da navbar */
     position: sticky;
@@ -40,7 +40,7 @@ p {
 .links-container a {
     text-decoration: none;
     color: white;
-    font-size: 1.1em;
+    font-size: 1.3em;
     transition: color 0.3s;
 }
 
@@ -53,29 +53,34 @@ p {
     width: 50%;
     transform: scale(1.2);
     transform-origin: top left; /* Define o ponto de origem da escala */
-    transition: transform 0.3s ease; /* Adiciona transição suave */
+    margin-left: 3%;
 }
 
 .container-titulo{
     margin-top: 130px;
     text-align: start;
     padding: 0 40px;
+    width: 70%;
+    
 }
 
 .container-titulo h1{
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 600;
 }
 
 .container-descricao{
     padding: 0 40px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: start;
-    width: 80%;
+    font-size: 1.7em;
+    width: 62%;
+    
 }
 
 .container-descricao p{
     font-size: 1em;
+    opacity: 0.99;
 }
 
 .btn-reserva,
@@ -87,6 +92,7 @@ p {
     border-radius: 50px;
     font-size: 1.1em;
     transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
 }
 
 .btn-reserva:hover,
@@ -104,7 +110,7 @@ p {
     display: flex;
     align-items: center;
     margin-left: 15%;
-    margin-top: 10%;
+    margin-top: 8%;
     gap: 20px;
 }
 
